@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-function Projects() {
+const Projects = ()=> {
   return <h2>Projects</h2>;
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import Projects from './Projects';
 import AboutMe from './AboutMe';
 
-function App() {
+const App = ()=> {
   return (
     <Router>
       <div>
@@ -20,9 +20,11 @@ function App() {
         </header>
 
         <main>
-          <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={AboutMe} />
+          <Routes>
+            <Route exact path="/" element={Home} />
+            <Route path="/projects" element={Projects} />
+            <Route path="/about" element={AboutMe} />
+          </Routes>
         </main>
       </div>
     </Router>
