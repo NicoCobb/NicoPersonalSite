@@ -1,8 +1,6 @@
 // Projects.js
 
-import React from 'react';
-
-const Projects = ()=> {
+const Projects = () => {
   return <h2>Projects</h2>;
 }
 

@@ -1,8 +1,5 @@
 // AboutMe.js
-
-import React from 'react';
-
-const AboutMe = ()=> {
+const AboutMe = () => {
   return (
     <div>
         <h2>About Nico Cobb</h2>
