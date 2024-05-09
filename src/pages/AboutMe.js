@@ -1,8 +1,10 @@
 // AboutMe.js
+import Container from 'react-bootstrap/Container'
+
 const AboutMe = () => {
   return (
-    <div>
-        <h2>About Nico Cobb</h2>
+    <Container>
+        <h1 className="header">About Nico Cobb</h1>
         <p>I am a Software developer who has been 
             in the industry for about two years. 
             In my own time, I work on game projects primarily
@@ -17,7 +19,7 @@ const AboutMe = () => {
             projects. These have been built using React and Angular webstacks.
             I have worked on team sizes ranging from three developers up to ten.
         </p>
-    </div>
+    </Container>
   );
 }
 
