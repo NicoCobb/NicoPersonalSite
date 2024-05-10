@@ -1,5 +1,7 @@
 // AboutMe.js
-import Container from 'react-bootstrap/Container'
+
+import { Container } from "react-bootstrap";
+
 
 const AboutMe = () => {
   return (
@@ -19,7 +21,7 @@ const AboutMe = () => {
             projects. These have been built using React and Angular webstacks.
             I have worked on team sizes ranging from three developers up to ten.
         </p>
-    </Container>
+        </Container>
   );
 }
 
