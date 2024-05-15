@@ -2,7 +2,7 @@
 
 import Layout from "./Layout";
 import { Navbar } from "react-bootstrap";
-import { Container } from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 
 const Home = () => {
